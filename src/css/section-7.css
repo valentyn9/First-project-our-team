@@ -1,10 +1,6 @@
 .contact {}
 
-.contact-list {
-    padding: 0 20px;
-    width: 335px;
-    height: 512px;
-}
+
 
 .contact-title {
         font-weight: 600;
@@ -15,11 +11,62 @@
         margin-bottom: 16px;
         text-align: left;
 }
+.contact-list {
+        border-radius: 30px;
+        padding: 48px 28px;
+        width: 335px;
+        height: 512px;
+        margin-bottom: 20px;
+        background-color: #F3F3F3;
+        
+}
 
-.contact-text {}
+.contact-text {
+       
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        color: rgba(12, 12, 12, 0.7);
+        text-align: center;
+}
 
-.contact-list-item {}
+.contact-list-item {
+        border: 1px solid rgba(12, 12, 12, 0.15);
+        border-radius: 12px;
+        padding: 12px 50px 12px 14px;
+        width: 279px;
+        height: 42px;
+        display: block;
+        margin-bottom: 18px;
+}
+.contact-list-item-email{
+        border: 1px solid rgba(12, 12, 12, 0.15);
+        border-radius: 12px;
+        padding: 12px 50px 12px 14px;
+        width: 279px;
+        height: 42px;
+        display: block;
+        margin-bottom: 18px;
+}
+.contact-list-item-comment{
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 50px 54px 14px;
+    width: 279px;
+    height: 84px;
+    display: block;
+}
 
-.form-input {}
+.form-input {
+   
+}
 
-.contact-btn {}
+.contact-btn {
+        border-radius: 16px;
+        padding: 12px 50px;
+        width: 134px;
+        height: 42px;
+        color: #fbfbfb;
+        background: #3350E9;
+}
