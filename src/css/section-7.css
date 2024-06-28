@@ -1,0 +1,25 @@
+.contact {}
+
+.contact-list {
+    padding: 0 20px;
+    width: 335px;
+    height: 512px;
+}
+
+.contact-title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: #0C0C0C;
+        margin-bottom: 16px;
+        text-align: left;
+}
+
+.contact-text {}
+
+.contact-list-item {}
+
+.form-input {}
+
+.contact-btn {}
