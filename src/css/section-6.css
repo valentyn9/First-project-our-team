@@ -1,0 +1,118 @@
+@media screen and (min-width: 375px) {
+
+    .reviews-title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: #0C0C0C;
+        margin-bottom: 40px;
+    }
+
+    .reviews-list {
+        display: flex;
+    }
+
+    .reviews-item {
+        padding: 32px 36px;
+        background-color: #F3F3F3;
+        border-radius: 30px;
+        width: 335px;
+    }
+
+    .reviews-image {
+        border-radius: 100%;
+        stroke-width: 2px;
+        background-color: #FBFBFB;
+        margin: 0 auto;
+    }
+
+    .reviews-subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        margin-bottom: 8px;
+        color: #0C0C0C;
+        margin-top: 24px;
+    }
+
+    .reviews-text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(12, 12, 12, 0.4);
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .reviews-title {
+        font-size: 48px;
+        line-height: 92%;
+    }
+
+    .reviews-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    .reviews-item {
+        width: calc((100% - 20px) / 2);
+    }
+
+
+
+    .reviews-image {
+        border-radius: 100%;
+        stroke-width: 2px;
+        background-color: #FBFBFB;
+    }
+
+    .reviews-subtitle {
+        font-size: 18px;
+        line-height: 110%;
+    }
+
+    .reviews-text {
+        font-size: 16px;
+        line-height: 125%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .reviews-title {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 92%;
+        margin-bottom: 40px;
+    }
+
+    .reviews-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    .reviews-item {
+        width: calc((100% - 40px) / 3);
+        padding: 32px 36px;
+        background-color: #F3F3F3;
+        border-radius: 30px;
+
+    }
+
+    .reviews-subtitle {
+        font-size: 18px;
+        line-height: 110%;
+
+    }
+
+    .reviews-text {
+        font-size: 16px;
+        line-height: 125%;
+    }
+}
