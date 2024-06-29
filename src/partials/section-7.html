@@ -1,27 +1,78 @@
 <section class="contact">
    
-        <h2 class="contact-title">Contact Us</h2>
-        <div class="contact-list">
-        <p class="contact-text">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
-        <form>
-            <div class="contact-list-item">
-                <label for="name">Name</label>
-                <input class="form-input" type="text" name="Name" id="Name" required>
-            </div>
-           <div class="contact-list-item-email">
-                <label for="email">Email</label>
-                <input class="form-input" type="text" name="email" id="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
-           </div>
-            <div class="contact-list-item">
-                <label for="+380">+380</label>
-                <input class="form-input" type="text" name="+380" id="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" required>
-            </div>
-            <div class="contact-list-item-comment">
-                <label for="comment">Comment</label>
-                <textarea class="textarea" name="comment" id="comment"></textarea>
-             </div>
-        </form>
-        <button class="contact-btn" type="submit">Send</button>
-    </div>
-        <img class="contact-img" src="src/img/contact-mob-1x.jpg" alt="">
+       <div class="container-contact">
+            <h2 class="contact-title">Contact Us</h2>
+            <div class="contact-all">
+            <div class="contact-list">
+            <form class="contact-form">
+            <p class="contact-text">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
+            
+                <div class="contact-list-item">
+                    <label for="user-name" class="contact-label visually-hidden"></label>
+                    <input 
+                     class="form-input" 
+                     type="text" 
+                     name="name" 
+                     id="user-name" 
+                     required 
+                     placeholder="Name"/>
+               
+               
+                    <label for="user-email" class="contact-label visually-hidden"></label>
+                    <input 
+                    class="form-input" 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" 
+                    required 
+                    placeholder="Email"/>
+               
+                
+                    <label for="+380" class="contact-label visually-hidden"></label>
+                    <input 
+                    class="form-input" 
+                    type="tel" 
+                    name="tel" 
+                    id="user-tel" 
+                    pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" 
+                    required 
+                    placeholder="+380"/>
+               
+                
+                    <label for="user-comment" class="contact-label visually-hidden"></label>
+                    <textarea 
+                    class="contact-textarea" 
+                    name="user-comment" 
+                    id="user-comment"
+                    required 
+                    placeholder="Comment"></textarea>
+                 </div>
+            <button class="contact-btn" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="contact-img-more">
+            <picture>
+                <source srcset="
+                /src/img/contact-desk-1x.jpg 1x, 
+                /src/img/contact-desk-1x.jpg 2x"
+                media="(min-width: 1280px)" />
+
+                <source srcset="
+               /src/img/contact-tab-1x.jpg 1x, 
+               /src/img/contact-tab-1x.jpg 2x"
+               media="(min-width: 768px)" />
+              
+               <source srcset="
+              /src/img/contact-mob-1x.jpg 1x, 
+              /src/img/contact-mob-1x.jpg 2x" 
+              media="(min-width: 768px)" />
+             
+              <img  src="/img/contact-mob-1x.jpg" 
+              alt=""
+              class="contact-img">
+            </picture>
+        </div> 
+     </div>
+ </div>
 </section>
