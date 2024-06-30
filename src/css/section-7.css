@@ -44,6 +44,7 @@
   line-height: 100%;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  flex-direction: column;
 }
 @media screen and (min-width: 768px) {
 .contact-title {
