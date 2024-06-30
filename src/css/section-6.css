@@ -94,6 +94,11 @@
 
 @media screen and (min-width: 1280px) {
 
+    .reviews-container {
+        padding-right: 65px;
+        padding-left: 65px;
+    }
+
     .reviews-title {
         font-weight: 600;
         font-size: 48px;
@@ -118,11 +123,11 @@
     .reviews-subtitle {
         font-size: 18px;
         line-height: 110%;
-
     }
 
     .reviews-text {
         font-size: 16px;
         line-height: 125%;
+
     }
 }
