@@ -6,32 +6,30 @@
   color: #fbfbfb;
   gap: 60px;
   border-radius: 30px;
-  width: 335px;
+  width: 375px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
   background: #0c0c0c;
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
       to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
+      rgba(1, 1, 1, 0.8),
+      rgba(1, 1, 1, 0.8)
     ),
-    url(../images/people-office-mob-1x.jpg); */
-  /* background: url('path_to_image'); */
-
-  /* @media screen and (-webkit-min-devece-pixel-ratio: 2),
+    url(/img/sec4-mob-1x.jpg);
+}
+@media screen and (-webkit-min-devece-pixel-ratio: 2),
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
-  .effect {
+  .advertisement {
     background-image: linear-gradient(
         to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
       ),
-      url(../images/people-office-mob-2x.jpg);
+      url(/img/sec4-mob-2x.jpg);
   }
-} */
 }
 
 .visually-hidden {
@@ -72,7 +70,7 @@
   display: block;
   text-align: center;
   color: #fbfbfb;
-  background: #0c0c0c;
+  background-color: rgba(255, 255, 255, 0);
   max-width: 160px;
   height: 48px;
   border: 1px solid rgba(251, 251, 251, 0.15);
@@ -91,6 +89,24 @@
 @media screen and (min-width: 768px) {
   .advertisement {
     width: 704px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(/img/sec4-tab-1x.jpg);
+  }
+  @media screen and (-webkit-min-devece-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .advertisement {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.8),
+          rgba(0, 0, 0, 0.8)
+        ),
+        url(/img/sec4-tab-2x.jpg);
+    }
   }
 
   .advertisement-text {
@@ -117,7 +133,27 @@
     justify-content: center;
     align-content: space-between;
     width: 1150px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(/img/sec4-des-1x.jpg);
   }
+
+  @media screen and (-webkit-min-devece-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .advertisement {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.8),
+          rgba(0, 0, 0, 0.8)
+        ),
+        url(../img/sec4-des-2x.jpg);
+    }
+  }
+
   .advertisement-div {
     display: flex;
     margin-top: 80px;
