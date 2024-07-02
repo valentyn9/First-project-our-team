@@ -1,0 +1,75 @@
+/* ================= MOBILE STYLES ============== */
+.hero {
+    padding: 60px 20px 0px 20px;
+    margin-bottom: 60px;
+    max-width: 375px;
+    max-height: 732px;
+}
+
+.container-hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-hero-two {
+    width: 335px;
+    min-height: 206px;
+    margin-bottom: 28px;
+}
+
+.title-hero {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: #0C0C0C;
+    padding-bottom: 20px;
+}
+
+.span-hero {
+    color: #3350E9;
+}
+
+.text-hero {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.nav-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 335px;
+    min-height: 44px;
+}
+
+.list-hero {
+    display: flex;
+}
+
+.imeg-hero {
+    width: 44px;
+}
+
+.link-hero {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0C0C0C;
+}
+
+
+
+.imeg-hero-two {
+    padding-top: 28px;
+}
+
+/* =================== TABLET STYLES ============== */
+@media screen and (min-width: 768px) {}

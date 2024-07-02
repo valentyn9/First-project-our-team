@@ -70,7 +70,7 @@
     }
 
     .reviews-item {
-        width: calc((100% - 20px) / 2);
+        width: 344px;
     }
 
     .card-2 {
@@ -94,11 +94,6 @@
 
 @media screen and (min-width: 1280px) {
 
-    .reviews-container {
-        padding-right: 65px;
-        padding-left: 65px;
-    }
-
     .reviews-title {
         font-weight: 600;
         font-size: 48px;
@@ -116,7 +111,7 @@
     }
 
     .reviews-item {
-        width: calc((100% - 40px) / 3);
+        width: 370px;
         padding: 32px 36px;
     }
 
@@ -128,6 +123,5 @@
     .reviews-text {
         font-size: 16px;
         line-height: 125%;
-
     }
 }
