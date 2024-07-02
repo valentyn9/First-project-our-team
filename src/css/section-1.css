@@ -1,8 +1,10 @@
 /* ================= MOBILE STYLES ============== */
 .hero {
     padding: 60px 20px 0px 20px;
+    margin-top: 0;
     margin-bottom: 60px;
-    max-width: 375px;
+    margin-bottom: 60px;
+    min-width: 375px;
     max-height: 732px;
 }
 
@@ -10,6 +12,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 28px;
 }
 
 .container-hero-two {
@@ -65,11 +68,85 @@
     color: #0C0C0C;
 }
 
-
-
-.imeg-hero-two {
-    padding-top: 28px;
+.hero-img {
+    height: 100%;
+    width: 1;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px
 }
 
 /* =================== TABLET STYLES ============== */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .hero {
+        padding: 80px 32px 0px 32px;
+        margin-top: 0;
+        margin-bottom: 80px;
+        min-width: 768px;
+        min-height: 900px;
+    }
+
+    .container-hero {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+
+    .title-hero {
+        font-size: 70px;
+        line-height: 0.86;
+    }
+
+    .text-hero {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .nav-hero {
+        flex-direction: column;
+    }
+
+    .imeg-hero {
+        width: 56px;
+    }
+
+    .link-hero {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    
+}
+
+/* =================== LAPTOP STYLES ============== */
+@media screen and (min-width: 1280px) {
+    .hero {
+        padding: 80px 65px 0px 65px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        min-width: 1280px;
+        min-height: 889px;
+    }
+
+    .container-hero {
+        flex-wrap: nowrap;
+    }
+
+    .container-hero-two {
+        width: 597px;
+        height: 269px;
+
+    }
+
+    .title-hero {
+        font-size: 72px;
+        line-height: 0.87;
+    }
+
+    .imeg-hero {
+        width: 60px;
+    }
+}
