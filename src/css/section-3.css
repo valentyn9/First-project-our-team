@@ -1,8 +1,25 @@
+/* ----------------------------MOBILE MEDIA---------------------------- */
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section {
+    padding-bottom: 60px;
+  }
+}
+.section-3 {
+  background-color: #fff;
+}
 .catalog-title {
   padding-bottom: 24px;
   font-weight: 600;
   font-size: 32px;
-
   line-height: 1;
   letter-spacing: -0.02em;
   color: var(--main);
@@ -16,7 +33,6 @@
 .catalog-iteam {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-
   background-color: #f3f3f3;
 }
 
@@ -38,6 +54,12 @@
   line-height: 1.3;
   letter-spacing: -0.02em;
   color: var(--main);
+}
+.catalog-subtitle-derct {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 310px;
 }
 .catalog-text {
   font-weight: 400;
@@ -62,9 +84,145 @@
   display: block;
   cursor: pointer;
   border: none;
-  margin-left: 87px;
-  margin-top: 40px;
-  margin-right: 87px;
+  margin: 0 auto;
   margin-bottom: 60px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.catalog-bloc-img {
+  display: none;
+}
+
+/* ----------------------------MOBILE MEDIA---------------------------- */
+
+/* ----------------------------TABLET MEDIA----------------------------*/
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .section {
+    padding-bottom: 80px;
+  }
+  .catalog-title {
+    padding-bottom: 40px;
+  }
+
+  .catalog-iteam {
+    width: calc((100% - 24px) / 2);
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background-color: #f3f3f3;
+  }
+  .catalog-images {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+  }
+  .catalog-subtitle {
+    padding-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--main);
+  }
+  .catalog-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+  }
+  .catalog-bloc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 32px;
+    padding-top: 0;
+    padding-right: 32px;
+    padding-bottom: 24px;
+  }
+  .catalog-button {
+    display: none;
+  }
+  .catalog-bloc-img {
+    display: block;
+  }
+}
+
+/*----------------------------TANLET MEDIA_---------------------------- */
+/* ----------------------------_DESCTOP MEDIA---------------------------- */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .section {
+    padding-bottom: 100px;
+  }
+  .catalog-title {
+    padding-bottom: 40px;
+  }
+  .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    row-gap: 32px;
+  }
+  .catalog-iteam {
+    width: calc((100% - 48px) / 3);
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background-color: #f3f3f3;
+  }
+  .catalog-images {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+  }
+  .catalog-subtitle {
+    padding-bottom: 8px;
+
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--main);
+  }
+  .catalog-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+  }
+  .catalog-bloc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 32px;
+    padding-top: 0;
+    padding-right: 32px;
+    padding-bottom: 24px;
+  }
+}
+
+/* ----------------------------DESCTOP MEDIAV---------------------------- */

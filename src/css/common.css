@@ -58,6 +58,7 @@ body {
   .section {
     padding-bottom: 80px;
   }
+
  
   .visually-hidden {
     position: absolute;
@@ -71,6 +72,7 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
 }
 
 
@@ -88,7 +90,6 @@ body {
   .section {
     padding-bottom: 100px;
   }
-  
-  
+
 }
 
