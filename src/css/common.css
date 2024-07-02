@@ -14,7 +14,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-/* ----------------------------MOBILE MEDIA---------------------------- */
+
 
 @media screen and (min-width: 375px) {
   .container {
@@ -28,11 +28,23 @@ body {
   .section {
     padding-bottom: 60px;
   }
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+    }
 }
 
-/* ----------------------------MOBILE MEDIA---------------------------- */
 
-/* ----------------------------TABLET MEDIA----------------------------*/
+
+
 
 @media screen and (min-width: 768px) {
   .container {
@@ -46,11 +58,25 @@ body {
   .section {
     padding-bottom: 80px;
   }
+
+ 
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 }
 
-/*----------------------------TANLET MEDIA_---------------------------- */
 
-/* ----------------------------_DESCTOP MEDIA---------------------------- */
+
 
 @media screen and (min-width: 1280px) {
   .container {
@@ -64,6 +90,6 @@ body {
   .section {
     padding-bottom: 100px;
   }
+
 }
 
-/* ----------------------------DESCTOP MEDIAV---------------------------- */
