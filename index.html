@@ -7,7 +7,7 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/First-project-our-team/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/First-project-our-team/assets/index-ab7e25b4.css">
+    <link rel="stylesheet" href="/First-project-our-team/assets/index-46e44835.css">
   </head>
   <body>
     <header class="header">
@@ -94,10 +94,34 @@
             <a class="link-hero" href="">Scroll down</a>
         </nav>
     </div>
+    <div class="container-imege-hero">
+        <picture>
+            <source srcset="/src/img/header-desk-1x.jpg 1x, /src/img/header-desk-1x 2x"
+            width="1150px"
+            height="500px"
+            media="(min-width: 1280px)" />
+        </picture>
 
-    <img class="imeg-hero-two" src="../img/header-mob-2x.jpg" alt="clock">
-    <use></use>
-    </img>
+        <picture>
+            <source srcset="/src/img/header-tab-1x.jpg 1x, /src/img/header-tab-1x 2x"
+            width="704px"
+            height="520px"
+            media="(min-width: 768px)" />
+        </picture>
+
+        <picture>
+            <source srcset="/src/img/header-mob-1x.jpg 1x, /src/img/header-mob-1x 2x"
+            width="335px"
+            height="366px"
+            media="(max-widt: 768px)" />
+
+            <img src="/src/img/contact-mob-1x.jpg" 
+            width="335px"
+            height="366px"
+            alt="hero clock"
+            class="hero-img" />
+        </picture>
+    </div>
 
 </section>
       <section class="about-section" id="about">
