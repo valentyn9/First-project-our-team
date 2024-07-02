@@ -109,16 +109,15 @@
         flex-direction: column;
     }
 
-    .imeg-hero {
-        width: 56px;
-    }
-
     .link-hero {
         font-size: 20px;
         line-height: 1;
     }
 
-    
+    .imeg-hero {
+        width: 56px;
+    }
+
 }
 
 /* =================== LAPTOP STYLES ============== */
