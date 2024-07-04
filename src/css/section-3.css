@@ -13,16 +13,14 @@
     padding-bottom: 60px;
   }
 }
-.section-3 {
-  background-color: #fff;
-}
+
 .catalog-title {
   padding-bottom: 24px;
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: var(--main);
+  color: #0c0c0c;
 }
 .catalog-list {
   display: flex;
@@ -34,6 +32,7 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background-color: #f3f3f3;
+  box-sizing: border-box;
 }
 
 .catalog-bloc {
@@ -52,18 +51,7 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
-.catalog-subtitle-derct {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 310px;
-}
-.catalog-subtitle-derct-one {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 290px;
-}
+
 .catalog-text {
   font-weight: 400;
   font-size: 14px;
@@ -95,7 +83,10 @@
   display: none;
 }
 .catalog-images {
-  padding: 24px 32px 10px 32px;
+  padding: 24px 28px 10px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 
 /* ----------------------------MOBILE MEDIA---------------------------- */
@@ -160,6 +151,22 @@
   .catalog-bloc-img {
     display: block;
   }
+  .catalog-subtitle-derct {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 310px;
+  }
+  .catalog-subtitle-derct-one {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 290px;
+  }
+  .catalog-images {
+    padding: 24px 32px 10px;
+    width: 304px;
+  }
 }
 
 /*----------------------------TANLET MEDIA_---------------------------- */
@@ -183,11 +190,11 @@
   .catalog-list {
     display: flex;
     flex-wrap: wrap;
-
+    gap: 23px;
     row-gap: 32px;
   }
   .catalog-iteam {
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 54px) / 3);
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
     background-color: #f3f3f3;
