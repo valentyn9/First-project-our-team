@@ -106,6 +106,15 @@
   .about-block-image {
     width: 335px;
   }
+
+  .about-list {
+    width: 295px;
+  }
+
+  .about-block-text {
+    width: auto;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) {
@@ -119,8 +128,6 @@
   .about-block-text {
     padding: 60px 80px;
     border-radius: 50px;
-    width: 704px;
-    height: 512px;
   }
 
   .about-header {
@@ -131,6 +138,7 @@
 
   .about-list {
     margin-bottom: 60px;
+    width: 584px;
   }
 
   .about-paragraph {
@@ -163,12 +171,11 @@
 
   .about-block-text {
     padding: 80px 60px;
-    width: 580px;
-    height: 532px;
   }
 
   .about-list {
     margin-bottom: 40px;
+    width: 460px;
   }
 
   .about-block-image {
