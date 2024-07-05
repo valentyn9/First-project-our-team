@@ -76,6 +76,14 @@
   border: 1px solid rgba(51, 80, 233, 0.1);
 }
 
+.header-icon-svg {
+  fill: #0C0C0C;
+}
+
+.header-menu-icon {
+  fill: #0C0C0C;
+}
+
 .menu-open-btn {
   display: block;
   stroke: #0C0C0C;
@@ -147,6 +155,7 @@
   stroke: #ffffff;
   width: 100%;
   height: 100%;
+  fill: #ffffff;
 }
 
 .mob-menu-nav {
