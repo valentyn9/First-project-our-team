@@ -114,6 +114,7 @@
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+  z-index: 1000;
 }
 
 @media screen and (-webkit-min-devece-pixel-ratio: 2),
